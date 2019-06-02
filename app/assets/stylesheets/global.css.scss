@@ -45,7 +45,7 @@ button, .button {
 	outline: none;
 	background: $green;
 	padding: 1rem 3.5rem;
-	border-radius: 0.1rem;
+
 	a {
 		color: white;
 		text-decoration: none;
@@ -76,7 +76,7 @@ header {
 	padding: 1.75rem 0;
 	border-bottom: 1.5px solid #376490;
 	.header_inner {
-		width: 50%;
+		width: 80%;
 		margin: 0 auto;
 		#logo {
 			display: inline-block;
@@ -94,7 +94,7 @@ header {
 				text-decoration: none;
 				color: blue;
 				font-size: 1.1rem;
-				line-height: 1.5;
+				line-height: 2.0;
 				margin-left: 1rem;
 				&:hover {
 					color: $light_gray;

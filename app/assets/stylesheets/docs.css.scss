@@ -2,13 +2,13 @@
 
    #docs {
 	.doc {
-		background: #78594B;
+		background: slateblue;
 		width: 90%;
 		min-height: 100px;
 		margin: 1rem 1%;
 		padding: 1.5rem 2.5%;
 		float: left;
-		border-radius: 2.9rem;
+		border-radius: 0.2rem;
 		position: relative;
 		text-align: center;
 		.title {
@@ -22,7 +22,7 @@
 		.date {
 			position: absolute;
 			bottom: .25rem;
-			left: 5.5%;
+			left: 30px;
 			color: white;
 			font-weight: lighter;
 			font-size: .75rem;
@@ -31,11 +31,12 @@
 		.content {
 			position: absolute;
 			bottom: .25rem;
-			left: 27.5%;
+			left: 0;
 			color: $light_gray;
 			font-weight: bold;
 			font-size: .75rem;
-			text-align: left;
+			text-align: center;
+      width:100%;
 		}
 	}
 }
@@ -61,12 +62,14 @@
 		text-align: center;
 		a.button {
 			padding: .2rem 1.5rem;
-			border-radius: 0.1rem;
+			border-radius: 0.2rem;
 			text-decoration: none;
-			color: gray;
-			border: 5px solid black;
-			@include bold_font;
+			color: black;
+			border: $dark_gray 2px solid;
 			background: transparent;
 		}
+    a.button:hover{
+      background:$light_gray;
+    }
 	}
 }
