@@ -28,3 +28,6 @@ Create db and migrate schema
 
 Now run your application
   `rails s`
+  
+Visit url:
+http://localhost:3000/records
