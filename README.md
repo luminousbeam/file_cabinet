@@ -38,4 +38,4 @@
   
 4. **Visit url:**
    
-    http://localhost:3000/records
+    http://localhost:3000
